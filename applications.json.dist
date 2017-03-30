@@ -1,0 +1,22 @@
+{
+	"applications":[
+		{
+			"name": "app1",
+			"clone_url": "git@github.com:tiagorbf/app1.git",
+			"path": "/Users/tferreira/Desktop/app1,
+			"dependencies": ["app2", "app3"]
+		},
+		{
+			"name": "app2",
+			"clone_url": "git@github.com:tiagorbf/app2.git",
+			"path": "/Users/tferreira/Desktop/app2,
+			"dependencies": ["app1"]
+		},
+				{
+			"name": "app3",
+			"clone_url": "git@github.com:tiagorbf/app3.git",
+			"path": "/Users/tferreira/Desktop/app3,
+			"dependencies": []
+		}
+	]
+}
