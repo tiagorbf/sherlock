@@ -36,3 +36,11 @@ A tip: If you want to search over the output pipe it to less
 ```
 ./sherlock dummy_application --since "2 weeks" --show-diff || less
 ```
+
+# Next steps
+
+1- You can also add topics to the config (not only repositories) and connect
+those topics with repositories. So if you say system x since 2 days it will check the repos that 
+x depends on event not being x a repository it self
+
+2- You can add other kinds of checks. (next could be health checks). Like check if given url returns code x
